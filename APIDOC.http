@@ -1,0 +1,25 @@
+#api call for ;isting employee
+###
+GET http://127.0.0.1:8000/employees/
+Accept: application/json
+
+
+#api call for creating employee
+###
+POST http://127.0.0.1:8000/employees/
+Content-Type: application/json
+
+{
+
+   "name":"hari",
+   "email":"hari@gmail.com",
+   "phone":"4567890",
+   "salary":56000,
+   "department":"hr",
+   "location":"kakkanad" 
+}
+
+#api call for employee detail
+###
+
+GET  http://127.0.0.1:8000/employees/8/
