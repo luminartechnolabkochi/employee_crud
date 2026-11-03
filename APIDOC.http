@@ -22,4 +22,25 @@ Content-Type: application/json
 #api call for employee detail
 ###
 
-GET  http://127.0.0.1:8000/employees/8/
+GET  http://127.0.0.1:8000/employees/1/
+
+
+#api call for employee detail
+###
+
+PUT  http://127.0.0.1:8000/employees/1/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "hari",
+    "email": "hari@gmail.com",
+    "phone": "4567890",
+    "salary": "70000.00",
+    "department": "hr",
+    "location": "thrissur"
+  }
+
+#api call for deleting emoployee
+###
+DELETE http://127.0.0.1:8000/employees/1/

@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "crm",
+    "crm_v2",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
